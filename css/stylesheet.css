@@ -1,0 +1,47 @@
+
+.flex-container {
+  display: flex;
+}
+
+
+#chart-container  {
+        width:  75%;
+        height: 830px;
+        margin: auto;
+        float:  left;
+        /*display: flex;
+        flex-grow: 4;*/
+}
+
+body {
+        background-color: #e0e0e0;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+#calender, #press, #sunrise, #temp, #humid {
+        /*display: flex;
+        flex-direction: column;
+        flex-grow: 1;*/
+        width:  20%;
+        height: auto;
+        margin-bottom: 1em;
+        float:  right;
+        background-color: #999999;
+        padding:  0.5em;
+        border: 1px solid #888888;
+        border-radius: 7px;
+
+}
+
+#temp  {
+
+}
+
+img {
+        padding-right:  1em;
+        vertical-align: middle;
+}
+
+#temp :hover  {
+        background-color: #BBBBBB;
+}
